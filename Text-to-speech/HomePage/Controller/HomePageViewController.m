@@ -90,6 +90,8 @@
 //        [self.Synthesizer stopSpeakingAtBoundary:AVSpeechBoundaryWord];
         //暂停播放，会保存进度
         [self.synthesizer pauseSpeakingAtBoundary:AVSpeechBoundaryWord];
+//        AVSpeechBoundaryImmediate,  立即停
+//        AVSpeechBoundaryWord  说完一个整词再停
     }
     
 }
